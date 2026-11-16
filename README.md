@@ -11,6 +11,7 @@ Automatically inspects local and remote SSH development logs, calculates active 
 - 🔒 **Lightweight & Portable**: Runs entirely in user-space (`~/.gemini/` and standard user `crontab`). No root permissions or daemons needed.
 - 🌐 **Multi-Host Auto-Discovery**: Automatically parses your `~/.ssh/config` and inspects work on remote staging/production servers.
 - 📁 **Project & Folder Differentiation**: Distinguishes work done across different project directories on the same or different servers.
+- 📊 **Excel Spreadsheet Export**: Automatically creates formatted, merged-cell `.xlsx` spreadsheets for each day into a dedicated `excel/` folder.
 - 🎯 **Privacy-First Custom Mappings**: Custom project names and internal folder aliases are kept in `config/project_mappings.local.json` which is ignored by Git.
 - 🔄 **IDE & CLI Native**: Use interactively in chat or let it run automatically in the background even when IDE/CLI are closed.
 
@@ -29,6 +30,7 @@ antigravity-work-tracker/
 ├── scripts/
 │   ├── harvest.py                      # Zero-dependency local/remote log harvester
 │   ├── render_report.py                # Merged-cell HTML/Markdown table renderer
+│   ├── export_excel.py                 # Pure standard library Excel (.xlsx) generator
 │   └── daily-sync.sh                   # Cron/manual background runner
 └── README.md
 ```

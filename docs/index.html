@@ -508,7 +508,8 @@
 
 <span class="c"># Or run it directly for a specific date:</span>
 <span class="p">$</span> <span class="n">./scripts/daily-sync.sh 2026-11-13</span>
-<span class="out">Daily work report generated: ~/Documents/WorkLogs/2026-11-13.md</span></pre>
+<span class="out">Daily work report generated: ~/Documents/WorkLogs/2026-11-13.md</span>
+<span class="out">Daily Excel sheet generated in: ~/Documents/WorkLogs/excel/2026-11-13.xlsx</span></pre>
 
   <h2>Project layout</h2>
 
@@ -522,6 +523,7 @@
 └── <span class="dir">scripts/</span>
     ├── <span class="file">harvest.py</span>                      <span class="comment"># zero-dependency SSH log collector</span>
     ├── <span class="file">render_report.py</span>                <span class="comment"># outputs merged HTML/MD table</span>
+    ├── <span class="file">export_excel.py</span>                 <span class="comment"># generates merged-cell .xlsx spreadsheets</span>
     └── <span class="file">daily-sync.sh</span>                   <span class="comment"># cron/manual runner</span></pre>
 
   <h2>Customising project names</h2>

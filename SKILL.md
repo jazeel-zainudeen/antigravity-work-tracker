@@ -40,8 +40,13 @@ From the harvested JSON records:
    - Estimate active session duration based on timestamps and task complexity (minimum 15–30 mins per interactive task).
    - Sum the hours per day to compute the **Daily Total**.
 
-## Step 3: Present in Merged-Cell HTML Table
-Always render the results in an HTML table with merged rows (`rowspan`) for identical dates and daily sum totals:
+## Step 3: Present in Merged-Cell HTML Table & Excel
+Always render the results in an HTML table with merged rows (`rowspan`) for identical dates and daily sum totals.
+
+In addition, an Excel file (`.xlsx`) is generated automatically for each day inside `~/Documents/WorkLogs/excel/`:
+```bash
+python3 ~/.gemini/antigravity/skills/daily-work-tracker/scripts/export_excel.py --input <JSON_FILE> --output-dir ~/Documents/WorkLogs/excel/
+```
 
 ```html
 <table>
