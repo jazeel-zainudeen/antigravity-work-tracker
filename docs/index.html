@@ -4,7 +4,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>antigravity-work-tracker</title>
+  <title>Antigravity Work Tracker — Automated Timesheets & Work Summaries</title>
+
+  <!-- SEO Primary Meta Tags -->
+  <meta name="title" content="Antigravity Work Tracker — Automated Timesheets & Work Summaries">
+  <meta name="description" content="Automated multi-host daily work tracking and timesheet generator for Antigravity IDE and CLI. Mines local and remote SSH sessions into merged-cell HTML/Markdown reports.">
+  <meta name="keywords" content="antigravity, timesheet, work tracker, developer tools, productivity, ssh work log, automation, python">
+  <meta name="author" content="Jazeel Zainudeen">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jazeel-zainudeen.github.io/antigravity-work-tracker/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jazeel-zainudeen.github.io/antigravity-work-tracker/">
+  <meta property="og:title" content="Antigravity Work Tracker — Automated Timesheets & Work Summaries">
+  <meta property="og:description" content="Automated multi-host daily work tracking for Antigravity IDE and CLI. Auto-mines local & remote SSH activity into clean, merged-cell HTML/Markdown timesheet reports.">
+  <meta property="og:image" content="https://jazeel-zainudeen.github.io/antigravity-work-tracker/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://jazeel-zainudeen.github.io/antigravity-work-tracker/">
+  <meta property="twitter:title" content="Antigravity Work Tracker — Automated Timesheets & Work Summaries">
+  <meta property="twitter:description" content="Automated multi-host daily work tracking for Antigravity IDE and CLI. Auto-mines local & remote SSH activity into clean, merged-cell HTML/Markdown timesheet reports.">
+  <meta property="twitter:image" content="https://jazeel-zainudeen.github.io/antigravity-work-tracker/assets/og-image.png">
+
+  <!-- Favicons & App Icons -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#0f1117">
+
+  <!-- JSON-LD Structured Data for SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Antigravity Work Tracker",
+    "operatingSystem": "Linux, macOS, Windows",
+    "applicationCategory": "DeveloperApplication",
+    "description": "Automated multi-host daily work tracking and timesheet generator for Antigravity IDE and CLI.",
+    "url": "https://jazeel-zainudeen.github.io/antigravity-work-tracker/",
+    "author": {
+      "@type": "Person",
+      "name": "Jazeel Zainudeen"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link
     href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
@@ -348,9 +401,12 @@
 
   <div class="header">
     <h1>antigravity-work-tracker</h1>
-    <p>I work across 6+ remote SSH servers daily with Antigravity CLI and IDE. This tool harvests all those session
+    <p>I work across multiple remote SSH servers daily with Antigravity CLI and IDE. This tool harvests all those session
       logs, groups them by server and project folder, and spits out a timesheet. Zero setup, no daemons, no extra installs.
     </p>
+    <div style="margin-top: 1.5rem;">
+      <img src="assets/og-image.png" alt="Antigravity Work Tracker Terminal Preview" style="width: 100%; max-width: 1000px; border-radius: 8px; border: 1px solid #1e2030; display: block; box-shadow: 0 8px 24px rgba(0,0,0,0.4);" />
+    </div>
   </div>
 
   <h2>The problem</h2>
