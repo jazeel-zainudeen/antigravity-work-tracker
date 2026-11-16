@@ -104,5 +104,8 @@ Reports are saved in `~/Documents/WorkLogs/YYYY-MM-DD.md`.
 
 ---
 
-## License
+## Author & License
+
+Built by [Jazeel Zainudeen](https://jazeel-zainudeen.github.io/).
+
 MIT License. Feel free to use, share, and adapt across your team.
