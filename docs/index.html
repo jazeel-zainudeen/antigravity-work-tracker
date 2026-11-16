@@ -297,7 +297,7 @@
   <div class="header">
     <h1>antigravity-work-tracker</h1>
     <p>I work across 6+ remote SSH servers daily with Antigravity CLI and IDE. This tool harvests all those session
-      logs, groups them by server and project folder, and spits out a timesheet. No sudo, no daemons, no extra installs.
+      logs, groups them by server and project folder, and spits out a timesheet. Zero setup, no daemons, no extra installs.
     </p>
   </div>
 
@@ -308,7 +308,7 @@
   </p>
 
   <ul class="plain">
-    <li>Works on remote staging servers where you have no sudo access</li>
+    <li>Works on any remote server without special permissions</li>
     <li>Reads <code>~/.ssh/config</code> so no extra config needed</li>
     <li>Runs the same way in IDE and CLI</li>
     <li>Ask it retroactively for any date — logs are always there on disk</li>
@@ -368,7 +368,7 @@
   <h2>How to use it</h2>
 
   <p>Clone it and run the installer. It copies the skill into <code>~/.gemini/antigravity/skills/</code> and sets up a
-    user crontab (no sudo involved anywhere).</p>
+    user crontab to run automatically in the background.</p>
 
   <pre><span class="p">$</span> <span class="n">git clone https://github.com/jazeel-zainudeen/antigravity-work-tracker.git</span>
 <span class="p">$</span> <span class="n">cd antigravity-work-tracker && ./install.sh</span>

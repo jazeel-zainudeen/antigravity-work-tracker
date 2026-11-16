@@ -1,6 +1,6 @@
 #!/bin/bash
 # daily-sync.sh - Automated daily runner for Antigravity Work Tracker
-# Runs silently via user cron or manual CLI trigger. No sudo required.
+# Runs silently via user cron or manual CLI trigger.
 
 DATE_ARG="${1:-today}"
 REPORTS_DIR="$HOME/Documents/WorkLogs"

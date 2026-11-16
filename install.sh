@@ -1,5 +1,5 @@
 #!/bin/bash
-# install.sh - Zero-sudo, single-step installer for Antigravity Work Tracker
+# install.sh - Single-step installer for Antigravity Work Tracker
 # Installs to user's Antigravity skills and sets up optional user crontab.
 
 set -e

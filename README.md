@@ -1,6 +1,6 @@
 # Antigravity Work Tracker 🚀
 
-An automated, zero-sudo, multi-host daily work tracking and timesheet generation system built natively for **Antigravity CLI** and **Antigravity IDE**.
+An automated, multi-host daily work tracking and timesheet generation system built natively for **Antigravity CLI** and **Antigravity IDE**.
 
 Automatically inspects local and remote SSH development logs, calculates active hours, and generates clean, merged-cell HTML/Markdown timesheet tables with daily sum totals.
 
@@ -8,7 +8,7 @@ Automatically inspects local and remote SSH development logs, calculates active 
 
 ## Features
 
-- 🔒 **Zero Sudo / Root Required**: Runs entirely in user-space (`~/.gemini/` and standard user `crontab`).
+- 🔒 **Lightweight & Portable**: Runs entirely in user-space (`~/.gemini/` and standard user `crontab`). No root permissions or daemons needed.
 - 🌐 **Multi-Host Auto-Discovery**: Automatically parses your `~/.ssh/config` and inspects work on remote staging/production servers.
 - 📁 **Project & Folder Differentiation**: Distinguishes work done across different project directories on the same or different servers.
 - 🎯 **Privacy-First Custom Mappings**: Custom project names and internal folder aliases are kept in `config/project_mappings.local.json` which is ignored by Git.
