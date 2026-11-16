@@ -247,10 +247,13 @@
       line-height: 1.8;
       color: #6c7086;
       margin: 1rem 0 1.5rem;
+      white-space: pre;
+      overflow-x: auto;
     }
 
     .file-tree .dir {
       color: #89b4fa;
+      font-weight: 500;
     }
 
     .file-tree .file {
@@ -258,7 +261,7 @@
     }
 
     .file-tree .gitignored {
-      color: #313244;
+      color: #f38ba8;
     }
 
     .file-tree .comment {
@@ -377,20 +380,16 @@
 
   <h2>Project layout</h2>
 
-  <div class="file-tree">
-    <span class="dir">antigravity-work-tracker/</span>
-    ├── <span class="file">install.sh</span> <span class="comment"># copies to ~/.gemini/skills/, sets crontab</span>
-    ├── <span class="file">SKILL.md</span> <span class="comment"># the skill instructions for Antigravity</span>
-    ├── <span class="dir">config/</span>
-    │ ├── <span class="file">project_mappings.example.json</span> <span class="comment"># folder → display name,
-      committed</span>
-    │ └── <span class="gitignored">project_mappings.local.json</span> <span class="comment"># your private overrides,
-      git-ignored</span>
-    └── <span class="dir">scripts/</span>
-    ├── <span class="file">harvest.py</span> <span class="comment"># zero-dependency SSH log collector</span>
-    ├── <span class="file">render_report.py</span> <span class="comment"># outputs merged HTML/MD table</span>
-    └── <span class="file">daily-sync.sh</span> <span class="comment"># cron/manual runner</span>
-  </div>
+  <pre class="file-tree"><span class="dir">antigravity-work-tracker/</span>
+├── <span class="file">install.sh</span>                          <span class="comment"># copies to ~/.gemini/skills/, sets crontab</span>
+├── <span class="file">SKILL.md</span>                            <span class="comment"># the skill instructions for Antigravity</span>
+├── <span class="dir">config/</span>
+│   ├── <span class="file">project_mappings.example.json</span>   <span class="comment"># folder → display name template</span>
+│   └── <span class="gitignored">project_mappings.local.json</span>     <span class="comment"># private overrides (git-ignored)</span>
+└── <span class="dir">scripts/</span>
+    ├── <span class="file">harvest.py</span>                      <span class="comment"># zero-dependency SSH log collector</span>
+    ├── <span class="file">render_report.py</span>                <span class="comment"># outputs merged HTML/MD table</span>
+    └── <span class="file">daily-sync.sh</span>                   <span class="comment"># cron/manual runner</span></pre>
 
   <h2>Customising project names</h2>
 
