@@ -1,0 +1,10 @@
+{
+  "api-backend": "Core REST API",
+  "customer-portal": "Customer Web Portal",
+  "auth-service": "Authentication Service",
+  "admin-dashboard": "Internal Admin Dashboard",
+  "payment-gateway": "Billing & Checkout Integration",
+  "mobile-client": "Mobile App Client",
+  "data-pipeline": "Analytics & ETL Pipeline",
+  "infra-automation": "Infrastructure & Deploy Automation"
+}

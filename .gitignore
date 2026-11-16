@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# User-specific custom project mappings and configurations
+config/project_mappings.local.json
+*.local.json
+*.local.*
+
+# Generated work logs and outputs
+reports/
+logs/
+*.json
+!config/project_mappings.example.json
+*.log
+
+# Environment and IDE files
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
